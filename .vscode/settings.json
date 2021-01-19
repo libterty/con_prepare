@@ -1,5 +1,22 @@
 {
   "files.associations": {
-    "iostream": "cpp"
+    "iostream": "cpp",
+    "vector": "cpp",
+    "valarray": "cpp",
+    "ostream": "cpp",
+    "algorithm": "cpp",
+    "bit": "cpp",
+    "*.tcc": "cpp",
+    "charconv": "cpp",
+    "chrono": "cpp",
+    "complex": "cpp",
+    "functional": "cpp",
+    "string_view": "cpp",
+    "random": "cpp",
+    "istream": "cpp",
+    "limits": "cpp",
+    "memory_resource": "cpp",
+    "numeric": "cpp",
+    "utility": "cpp"
   }
 }
