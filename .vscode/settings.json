@@ -17,6 +17,13 @@
     "limits": "cpp",
     "memory_resource": "cpp",
     "numeric": "cpp",
-    "utility": "cpp"
+    "utility": "cpp",
+    "array": "cpp",
+    "bitset": "cpp",
+    "initializer_list": "cpp",
+    "ranges": "cpp",
+    "span": "cpp",
+    "iosfwd": "cpp",
+    "sstream": "cpp"
   }
 }
