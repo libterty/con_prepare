@@ -24,6 +24,26 @@
     "ranges": "cpp",
     "span": "cpp",
     "iosfwd": "cpp",
-    "sstream": "cpp"
+    "sstream": "cpp",
+    "map": "cpp",
+    "atomic": "cpp",
+    "condition_variable": "cpp",
+    "cwchar": "cpp",
+    "deque": "cpp",
+    "list": "cpp",
+    "exception": "cpp",
+    "fstream": "cpp",
+    "future": "cpp",
+    "mutex": "cpp",
+    "new": "cpp",
+    "ratio": "cpp",
+    "scoped_allocator": "cpp",
+    "shared_mutex": "cpp",
+    "stdexcept": "cpp",
+    "streambuf": "cpp",
+    "thread": "cpp",
+    "tuple": "cpp",
+    "type_traits": "cpp",
+    "typeindex": "cpp"
   }
 }
