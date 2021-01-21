@@ -4,6 +4,9 @@ using namespace std;
 typedef long long int unsigned ll;
 typedef string str;
 
+/**
+ * @see https://leetcode.com/problems/goal-parser-interpretation/submissions/
+ */
 class Solution {
 public:
   string interpret(string command) {   
