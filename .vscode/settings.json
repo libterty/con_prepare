@@ -45,6 +45,24 @@
     "tuple": "cpp",
     "type_traits": "cpp",
     "typeindex": "cpp",
-    "forward_list": "cpp"
+    "forward_list": "cpp",
+    "cctype": "cpp",
+    "clocale": "cpp",
+    "cmath": "cpp",
+    "compare": "cpp",
+    "concepts": "cpp",
+    "cstdarg": "cpp",
+    "cstddef": "cpp",
+    "cstdint": "cpp",
+    "cstdio": "cpp",
+    "cstdlib": "cpp",
+    "cwctype": "cpp",
+    "unordered_map": "cpp",
+    "iterator": "cpp",
+    "memory": "cpp",
+    "optional": "cpp",
+    "string": "cpp",
+    "system_error": "cpp",
+    "typeinfo": "cpp"
   }
 }
