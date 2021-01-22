@@ -8,6 +8,9 @@ using namespace std;
 typedef long long unsigned int ll;
 typedef string str;
 
+/**
+ * @see https://leetcode.com/problems/shuffle-string/submissions/
+ */
 class Solution {
 public:
   string restoreString(string s, vector<ll>& indices) {

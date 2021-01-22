@@ -1,28 +1,28 @@
 #include <iostream>
+#include <vector>
+#include <sstream>
 
 using namespace std;
 typedef long long unsigned int ll;
+typedef string str;
+
+template<class T>
+vector<T> write_vector(vector<T>& v, ll& temp, istringstream& ss) {
+  while (ss >> temp)
+    v.push_back(temp);
+  return v;
+}
+
 int main() 
 {
-  ll i, j, k, t, ip;
-  cin>>t;
-  while (t--)
-  {
-    /* code */
-    string s, s2;
-    ll c0 = 0;
-    for(i = 0; i < s.size(); i++) 
-    {
-      if(s[i] == '0') c0++;
-    }
-    if(min(c0, (s.length() - c0)) % 2 == 0)
-    {
-      cout << "Hello\n";
-    }
-    else
-    {
-      cout << "World\n";
-    }
-  }
+  string line;
+  vector<ll> nums;
+  ll temp;
+  getline(cin, line);
+  istringstream ss(line);
+
+  nums = write_vector(nums, temp, ss);
+
+  
   return 0;
 }
