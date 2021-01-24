@@ -22,9 +22,12 @@ public:
 
 int main() {
 
-  RecentCounter rc;
-  int r = rc.ping(3001);
+  RecentCounter* rc = new RecentCounter();
+  int r1 = rc -> ping(1);
+  int r2 = rc -> ping(100);
+  int r3 = rc -> ping(3001);
+  int r4 = rc -> ping(3002);
 
-  cout << r;
+  cout << r1 << " " << r2 << " " << r3 << " " << r4;
   return 0;
 }
