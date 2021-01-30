@@ -64,5 +64,6 @@
     "string": "cpp",
     "system_error": "cpp",
     "typeinfo": "cpp"
-  }
+  },
+  "C_Cpp.errorSquiggles": "Disabled"
 }
