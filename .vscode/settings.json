@@ -65,7 +65,8 @@
     "system_error": "cpp",
     "typeinfo": "cpp",
     "set": "cpp",
-    "queue": "cpp"
+    "queue": "cpp",
+    "unordered_set": "cpp"
   },
   "C_Cpp.errorSquiggles": "Disabled"
 }
