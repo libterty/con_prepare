@@ -70,7 +70,8 @@
     "regex": "cpp",
     "cstring": "c",
     "ctime": "c",
-    "stop_token": "c"
+    "stop_token": "c",
+    "stack": "cpp"
   },
   "C_Cpp.errorSquiggles": "Disabled"
 }
