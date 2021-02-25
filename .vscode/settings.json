@@ -71,7 +71,17 @@
     "cstring": "c",
     "ctime": "c",
     "stop_token": "c",
-    "stack": "cpp"
+    "stack": "cpp",
+    "any": "cpp",
+    "cfenv": "cpp",
+    "cinttypes": "cpp",
+    "codecvt": "cpp",
+    "csetjmp": "cpp",
+    "csignal": "cpp",
+    "cuchar": "cpp",
+    "iomanip": "cpp",
+    "numbers": "cpp",
+    "variant": "cpp"
   },
   "C_Cpp.errorSquiggles": "Disabled"
 }
