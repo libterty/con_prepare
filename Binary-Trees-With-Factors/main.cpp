@@ -1,11 +1,12 @@
 #include <iostream>
-#include <vector>
 #include <unordered_map>
+#include <vector>
 
 using namespace std;
 
 /**
- * @see https://leetcode.com/explore/challenge/card/march-leetcoding-challenge-2021/589/week-2-march-8th-march-14th/3670/
+ * @see
+ * https://leetcode.com/explore/challenge/card/march-leetcoding-challenge-2021/589/week-2-march-8th-march-14th/3670/
  */
 class Solution {
 public:
@@ -13,11 +14,11 @@ public:
     long res = 0, m = 1e9 + 7;
     unordered_map<int, long> dp;
     sort(arr.begin(), arr.end());
-    for (int i = 0; i < (int) arr.size(); ++i) {
+    for (int i = 0; i < (int)arr.size(); ++i) {
       dp[arr[i]] = 1;
       for (int j = 0; j < i; ++j) {
         if (arr[i] % arr[j] == 0 && dp.count(arr[i] / arr[j])) {
-          dp[arr[i]] = (dp[arr[i]] + dp[arr[j]]) * dp[arr[i] / arr[j]] % m;
+          dp[arr[i]] = (dp[arr[i]] + dp[arr[j]] * dp[arr[i] / arr[j]]) % m;
         }
       }
     }
@@ -29,7 +30,7 @@ public:
 };
 
 int main() {
-  vector<int> arr = {2, 4};
+  vector<int> arr = {18,3,6,2};
   Solution sol;
   int ans = sol.numFactoredBinaryTrees(arr);
   cout << ans << endl;
